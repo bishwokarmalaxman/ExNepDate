@@ -6,6 +6,7 @@
 
 ## Table of Contents
 
+- [Downloads](#downloads)
 - [Features](#features)
 - [Installation & Setup](#installation--setup)
 - [Function Reference](#function-reference)
@@ -19,6 +20,17 @@
   - [Date Ranges & Working Days](#8-date-ranges--working-days)
 - [Formatting Options](#formatting-options)
 - [License & Dependencies](#license--dependencies)
+
+---
+
+## Downloads
+
+Download the latest release (**v1.0.0**):
+
+| Package | Type | Description | Link |
+| :--- | :--- | :--- | :--- |
+| **ExcelNepDateAddIn.msi** | Windows Installer (`.msi`) | Automated installer for Microsoft Excel (Recommended) | [📥 Download MSI](https://github.com/bishwokarmalaxman/ExNepDate/releases/download/v1.0.0/ExcelNepDateAddIn.msi) |
+| **ExNepDate-AddIn64-packed.xll** | Standalone Add-in (`.xll`) | Pre-packaged 64-bit standalone Excel add-in | [📥 Download XLL (64-bit)](https://github.com/bishwokarmalaxman/ExNepDate/releases/download/v1.0.0/ExNepDate-AddIn64-packed.xll) |
 
 ---
 
@@ -39,13 +51,19 @@
 - Microsoft Excel (2013 or newer, 32-bit or 64-bit)
 - .NET Framework / .NET Runtime (matching your Excel-DNA target build)
 
-### Loading the Add-in
+### Option 1: Automatic Setup via MSI Installer (Recommended)
 
-1. Build the project to output the compiled `.xll` add-in file (`ExNepDate-AddIn.xll` or `ExNepDate-AddIn64.xll`).
+1. Download [**ExcelNepDateAddIn.msi**](https://github.com/bishwokarmalaxman/ExNepDate/releases/download/v1.0.0/ExcelNepDateAddIn.msi).
+2. Run the `.msi` file and follow the setup wizard.
+3. Open or restart Microsoft Excel. The add-in will be automatically registered and ready to use.
+
+### Option 2: Manual Setup via XLL Add-in
+
+1. Download [**ExNepDate-AddIn64-packed.xll**](https://github.com/bishwokarmalaxman/ExNepDate/releases/download/v1.0.0/ExNepDate-AddIn64-packed.xll) (or build the project locally to get the compiled `.xll` file).
 2. Open Microsoft Excel.
 3. Go to **File** $\rightarrow$ **Options** $\rightarrow$ **Add-Ins**.
 4. At the bottom, select **Excel Add-ins** from the *Manage* dropdown and click **Go...**.
-5. Click **Browse...**, navigate to your output folder, and select the `.xll` file.
+5. Click **Browse...**, navigate to your downloaded `.xll` file, and select it.
 6. Click **OK**. The functions will now be available in Excel under the **NepDate** category.
 
 ---
