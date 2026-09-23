@@ -274,7 +274,7 @@ To compile **ExNepDate** locally:
 ## 📄 License & Credits
 
 - **License**: Released under the [MIT License](LICENSE).
-- **Core Library**: Powered by [.NET NepDate](https://github.com/nepdate) by NepDate contributors.
+- **Core Library**: Powered by [.NET NepDate]([https://github.com/nepdate](https://github.com/RajuPrasai/NepDate)) by NepDate contributors.
 - **Excel Integration**: Built using [Excel-DNA](https://github.com/Excel-DNA/ExcelDna) (Licensed under the Excel-DNA License).
 
 ---
